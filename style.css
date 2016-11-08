@@ -302,3 +302,39 @@ p {
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
    /* CSS overrides for mobile here */
 }
+
+@media only screen and (max-device-width: 480px) {
+		div#body {
+			width: 400px;
+		}
+
+		div#header h1 {
+			font-size: 16px;
+		}
+
+		div#header h2 {
+			color: transparent;
+  			margin: 0cm 0cm 0cm 0cm;
+ 			padding-left: 1.5cm;
+  			letter-spacing: 0.5px;
+			font-size: 14px;
+			background-color: transparent;
+			font-family: "Lucida Console", Monaco, monospace;
+			text-align: left;
+			text-decoration: none;
+			border-style: hidden;
+		}
+
+		#content {
+			letter-spacing: -1px;
+			font-size: 12px;
+			background-color: transparent;
+			font-family: 'Play', sans-serif;
+			text-align: left;
+		}
+
+		#navigation {
+			float:none;
+			width: auto;
+		}
+	}
