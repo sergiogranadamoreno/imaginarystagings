@@ -302,7 +302,7 @@ p {
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
    /* CSS overrides for mobile here */
 }
-
+/*
 @media only screen and (max-device-width: 480px) {
 		div#body {
 			width: 400px;
@@ -337,4 +337,4 @@ p {
 			float:none;
 			width: auto;
 		}
-	}
+	}*/
