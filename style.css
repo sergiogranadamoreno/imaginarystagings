@@ -389,7 +389,7 @@ h1 {
   margin: 0cm 8.8cm 0cm 0cm;
   letter-spacing: -2.2px;
   background-color: transparent;
-  font-size: 62px;
+  font-size: 52px;
   font-family: "Lucida Console", Monaco, monospace;
   text-align: right;
   text-shadow: 1px 0.9px #A9A9A9;
@@ -400,7 +400,7 @@ h1 {
 
 h2 {
   color: transparent;
-  margin: 3.5cm 0cm 0cm 0.5cm;
+  margin: 0cm 0cm 0cm 0.5cm;
   padding-bottom: 20px;
   letter-spacing: 0.5px;
   font-size: 42px;
@@ -419,7 +419,7 @@ h3 {
 
 #social-media-icons img {
   display: inline-block;
-  max-width: 14%;
+  max-width: 9%;
   max-height: 8%;
   padding: 0px;
 }
@@ -484,10 +484,10 @@ content {
   } 
 
 footer {
-  margin: 1cm 0cm 0cm 0cm;
+  margin: 0cm 0cm 0cm 0cm;
   position: relative;
   left:0px;
-  top:1200px; 
+  top:0px; 
   color: #202733;
   padding-top: 1.1cm;
   letter-spacing: 2px;
