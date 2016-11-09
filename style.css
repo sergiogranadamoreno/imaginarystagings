@@ -305,12 +305,12 @@ p {
 
 
 
-/* iPhone Portrait and Landscape */
+/* Smartphones (portrait and landscape) ———– */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
 
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px) {
 
 	  
 header {
@@ -342,7 +342,7 @@ header {
 .header-cont {
     color: #000000;
     width:100%;
-    position:absolute;
+    position:relative;
     top:0px;
   }
 
@@ -387,6 +387,7 @@ iframe { display: inline; }
 h1 {
   color: #202733;
   margin: 0cm 0cm 0cm 0cm;
+  padding-top: 2cm;
   letter-spacing: -2.2px;
   background-color: transparent;
   font-size: 42px;
@@ -482,7 +483,7 @@ content {
   } 
 
 footer {
-  margin: 30cm 0cm 0cm 0cm;
+  margin: 4cm 0cm 0cm 0cm;
   position: absolute;
   left: 0px; 
   color: #202733;
@@ -495,7 +496,7 @@ footer {
 }
 
 footer-bio {
-  margin: 30cm 0cm 0cm 0cm;
+  margin: 4cm 0cm 0cm 0cm;
   position: absolute;
   left: 0px; 
   color: #202733;
