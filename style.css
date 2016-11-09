@@ -400,9 +400,10 @@ h1 {
 
 h2 {
   color: transparent;
-  margin: 3cm 0cm 0cm 0.5cm;
+  margin: 0cm 0cm 0cm 0cm;
+  padding-left: 2cm;
   letter-spacing: 0.5px;
-  font-size: 42px;
+  font-size: 32px;
   background-color: transparent;
   font-family: "Lucida Console", Monaco, monospace;
   text-align: left;
@@ -418,10 +419,11 @@ h3 {
 
 #social-media-icons img {
   display: inline-block;
-  max-width: 9%;
-  max-height: 8%;
+  max-width: 3.5%;
+  max-height: 3%;
   padding: 0px;
 }
+
 
 h4 {
   color: #202733;
