@@ -5,6 +5,12 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 /* LAYOUT STYLES */
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
 
 header {
   letter-spacing: -1px;
@@ -294,24 +300,14 @@ p {
 	border-bottom: 0.5px solid;
 }
 
-
+}
 
 
 /* Target small devices. As long as this section comes last in your CSS it will overwrite the previous rules. */
 
-@media only screen and (max-width> 240px), only screen and (max-device-width: 240px) {
-   /* CSS overrides for mobile here */
-	h2 {
-  color: transparent;
-  margin: 0cm 0cm 0cm 0cm;
-  padding-left: 0cm;
-  letter-spacing: 0.5px;
-  font-size: 12px;
-  background-color: transparent;
-  font-family: "Lucida Console", Monaco, monospace;
-  text-align: left;
-  text-decoration: none;
-  border-style: hidden;
-}
-	
-}
+
+
+
+
+
+
