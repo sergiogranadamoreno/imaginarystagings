@@ -305,11 +305,11 @@ p {
 
 @media only screen and (max-device-width: 480px) {
 		div#body {
-			width: 200px;
+			width: 100px;
 		}
 
 		div#header h1 {
-			font-size: 16px;
+			font-size: 10px;
 		}
 
 		div#header h2 {
