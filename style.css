@@ -302,3 +302,32 @@ p {
 }
 
 
+
+
+
+
+/* Smartphones (portrait and landscape) ———– */
+
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+
+.logo {
+  display: inline;
+  width: 0%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 0 0; /* 34.37% = 100 / (w / h) = 100 / (640 / 220) */
+  text-align: right;
+}
+
+.logo img {
+  display: inline;
+  max-width: 0%;
+  max-height: 0%;
+  text-align: right;
+
+}
