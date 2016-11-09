@@ -485,7 +485,7 @@ content {
 
 footer {
   margin: 1cm 0cm 0cm 0cm;
-  position: absolute;
+  position: relative;
   left:0px;
   top:1200px; 
   color: #202733;
@@ -499,7 +499,7 @@ footer {
 
 footer-bio {
   margin: 1cm 0cm 0cm 0cm;
-  position: absolute;
+  position: relative;
   left: 0px; 
   color: #202733;
   padding-top: 1.1cm;
