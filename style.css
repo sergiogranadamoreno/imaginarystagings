@@ -301,6 +301,10 @@ p {
 
 }
 
+
+
+
+
 /* iPhone Portrait and Landscape */
 @media only screen 
   and (min-device-width: 320px) 
@@ -315,22 +319,18 @@ header {
 
 .logo {
   display: inline-block;
-  width: 100%;
+  width: 10%;
   height: auto;
   position: relative;
   overflow: hidden;
-  padding: 10% 0 0 0; /* 34.37% = 100 / (w / h) = 100 / (640 / 220) */
+  padding: 5% 0 0 0; /* 34.37% = 100 / (w / h) = 100 / (640 / 220) */
 }
 
 .logo img {
   display: inline-block;
-  max-width: 100%;
-  max-height: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  max-width: 10%;
+  max-height: 10%;
+  
 }
 
 /* header style */
@@ -385,7 +385,7 @@ h1 {
   margin: 0cm 8.8cm 0cm 0cm;
   letter-spacing: -2.2px;
   background-color: transparent;
-  font-size: 52px;
+  font-size: 22px;
   font-family: "Lucida Console", Monaco, monospace;
   text-align: right;
   text-shadow: 1px 0.9px #A9A9A9;
@@ -485,7 +485,7 @@ footer {
   color: #202733;
   padding-top: 1.1cm;
   letter-spacing: 2px;
-  font-size: 15px;
+  font-size: 25px;
   background-color: transparent;
   font-family: 'Play', sans-serif;
   text-shadow: 1px 0.9px #A9A9A9;
@@ -498,7 +498,7 @@ footer-bio {
   color: #202733;
   padding-top: 1.1cm;
   letter-spacing: 2px;
-  font-size: 17px;
+  font-size: 25px;
   background-color: transparent;
   font-family: 'Play', sans-serif;
   text-shadow: 1px 0.9px #A9A9A9;
@@ -534,57 +534,52 @@ p {
 .b1
 {
   background-color: white;
-	border-bottom: 2px inset #C0C0C0;
+  border-bottom: 2px inset #C0C0C0;
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
-	text-shadow: 0px 0.5px #A9A9A9;
-  left:270px;
-  top:300px;
+  text-shadow: 0px 0.5px #A9A9A9;
+  
 }
 
 .b2
 {
-	background-color: white;
-	border-bottom: 2px inset #C0C0C0;
+  background-color: white;
+  border-bottom: 2px inset #C0C0C0;
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
-	text-shadow: 0px 0.5px #A9A9A9;
-  left:740px;
-  top:350px;
+  text-shadow: 0px 0.5px #A9A9A9;
+
 }
 
 
 .b3
 {
-	background-color: white;
-	border-bottom: 2px inset #C0C0C0;
+  background-color: white;
+  border-bottom: 2px inset #C0C0C0;
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
-	text-shadow: 0px 0.5px #A9A9A9;
-  left:430px;
-  top:400px;
+  text-shadow: 0px 0.5px #A9A9A9;
+ 
 }
 
 .b4
 {
-	background-color: white;
-	border-bottom: 2px inset #C0C0C0;
+  background-color: white;
+  border-bottom: 2px inset #C0C0C0;
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
-	text-shadow: 0px 0.5px #A9A9A9;
-  left:490px;
-  top:275px;
+  text-shadow: 0px 0.5px #A9A9A9;
+ 
 }
 
 .b5
 {
-	background-color: white;
-	border-bottom: 2px inset #C0C0C0;
+  background-color: white;
+  border-bottom: 2px inset #C0C0C0;
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
-	text-shadow: 0px 0.5px #A9A9A9;
-  left:760px;
-  top:250px;
+  text-shadow: 0px 0.5px #A9A9A9;
+  
 }
 
 
