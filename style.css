@@ -5,12 +5,11 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 /* LAYOUT STYLES */
-/* ----------- Retina Screens ----------- */
+
+/* ----------- Retina/Non Retina Screens ----------- */
 @media screen 
   and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
+  and (max-device-width: 1600px)  { 
 
 header {
   letter-spacing: -1px;
@@ -302,8 +301,42 @@ p {
 
 }
 
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
 
-/* Target small devices. As long as this section comes last in your CSS it will overwrite the previous rules. */
+	  
+header {
+  letter-spacing: -1px;
+  background-color: transparent;
+  border-style: hidden;
+}
+
+.logo {
+  display: inline-block;
+  width: 10%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  padding: 10% 0 0 0; /* 34.37% = 100 / (w / h) = 100 / (640 / 220) */
+}
+
+.logo img {
+  display: inline-block;
+  max-width: 10%;
+  max-height: 10%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+	  
+	  
+	  
+}
 
 
 
