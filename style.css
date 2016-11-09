@@ -123,29 +123,13 @@ h3 {
 }
 
 h4 {
-  color: #202733;
-  margin: 0.5cm 0cm 0cm 0.2cm;
-  padding-right: 20cm;
-  letter-spacing: -1px;
-  font-size: 17px;
-  background-color: transparent;
-  font-family: 'Play', sans-serif;
-  text-align: left;
-  border-style: hidden;
+  font-size: 0px;
  
 
 }
 
 h5 {
-  color: #202733;
-  margin: 0cm 0cm 0cm 0.2cm;
-  padding-right: 31.4cm;
-  letter-spacing: -2px;
-  font-size: 15px;
-  background-color: transparent;
-  font-family: "Lucida Console", Monaco, monospace;
-  text-align: right;
-  border-style: hidden;
+  font-size: 0px;
  
 }
  
