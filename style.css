@@ -301,11 +301,10 @@ p {
 
 }
 
-/* Portrait and Landscape */
+/* iPhone Portrait and Landscape */
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-device-width: 480px) {
 
 	  
 header {
@@ -316,25 +315,44 @@ header {
 
 .logo {
   display: inline-block;
-  width: 10%;
+  width: 1%;
   height: auto;
   position: relative;
   overflow: hidden;
-  padding: 10% 0 0 0; /* 34.37% = 100 / (w / h) = 100 / (640 / 220) */
+  padding: 3% 0 0 0; /* 34.37% = 100 / (w / h) = 100 / (640 / 220) */
 }
 
 .logo img {
   display: inline-block;
-  max-width: 10%;
-  max-height: 10%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  max-width: 1%;
+  max-height: 1%;
 }
 	  
-	  
+h2 {
+  color: transparent;
+  margin: 0cm 0cm 0cm 0cm;
+  padding-left: 0cm;
+  letter-spacing: 0.5px;
+  font-size: 8px;
+  background-color: transparent;
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: left;
+  text-decoration: none;
+  border-style: hidden;
+}
+
+/* h3 contains the social media icons*/
+h3 {
+  color: transparent;
+  margin: 0cm 0cm 0cm 0cm;
+}
+
+#social-media-icons img {
+  display: inline-block;
+  max-width: 1%;
+  max-height: 1%;
+  padding: 0px;
+}	  
 	  
 }
 
