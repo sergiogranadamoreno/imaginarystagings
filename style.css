@@ -6,8 +6,6 @@
 
 /* LAYOUT STYLES */
 
-
-
 header {
   letter-spacing: -1px;
   background-color: transparent;
@@ -83,13 +81,12 @@ iframe { display: inline; }
 
 h1 {
   color: #202733;
-  margin: 0cm 0cm 0cm 0cm;
-  padding-top: 2cm;
+  margin: 0cm 8.8cm 0cm 0cm;
   letter-spacing: -2.2px;
   background-color: transparent;
-  font-size: 42px;
+  font-size: 52px;
   font-family: "Lucida Console", Monaco, monospace;
-  text-align: left;
+  text-align: right;
   text-shadow: 1px 0.9px #A9A9A9;
   border-style: hidden;
 }  
@@ -99,9 +96,9 @@ h1 {
 h2 {
   color: transparent;
   margin: 0cm 0cm 0cm 0cm;
-  padding-left: 0cm;
-  letter-spacing: 0px;
-  font-size: 30px;
+  padding-left: 18.5cm;
+  letter-spacing: 0.5px;
+  font-size: 12px;
   background-color: transparent;
   font-family: "Lucida Console", Monaco, monospace;
   text-align: left;
@@ -117,19 +114,35 @@ h3 {
 
 #social-media-icons img {
   display: inline-block;
-  max-width: 8%;
-  max-height: 8%;
+  max-width: 3.5%;
+  max-height: 3%;
   padding: 0px;
 }
 
 h4 {
-  font-size: 0px;
+  color: #202733;
+  margin: 0.5cm 0cm 0cm 0.2cm;
+  padding-right: 20cm;
+  letter-spacing: -1px;
+  font-size: 17px;
+  background-color: transparent;
+  font-family: 'Play', sans-serif;
+  text-align: left;
+  border-style: hidden;
  
 
 }
 
 h5 {
-  font-size: 0px;
+  color: #202733;
+  margin: 0cm 0cm 0cm 0.2cm;
+  padding-right: 31.4cm;
+  letter-spacing: -2px;
+  font-size: 15px;
+  background-color: transparent;
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: right;
+  border-style: hidden;
  
 }
  
@@ -280,9 +293,6 @@ p {
   -webkit-transform: translate(0px,5px);
 	border-bottom: 0.5px solid;
 }
-
-
-
 
 
 
