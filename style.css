@@ -299,11 +299,40 @@ p {
 
 /* Target small devices. As long as this section comes last in your CSS it will overwrite the previous rules. */
 
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 24px), only screen and (max-device-width: 240px) {
    /* CSS overrides for mobile here */
+	div#header h1 {
+			font-size: 10px;
+		}
+
+		div#header h2 {
+			color: transparent;
+  			margin: 0cm 0cm 0cm 0cm;
+ 			padding-left: 0cm;
+  			letter-spacing: 0.5px;
+			font-size: 10px;
+			background-color: transparent;
+			font-family: "Lucida Console", Monaco, monospace;
+			text-align: left;
+			text-decoration: none;
+			border-style: hidden;
+		}
+
+		#content {
+			letter-spacing: -1px;
+			font-size: 16px;
+			background-color: transparent;
+			font-family: 'Play', sans-serif;
+			text-align: left;
+		}
+
+		#navigation {
+			float:none;
+			width: auto;
+		}
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 240px) {
 		
 
 		div#header h1 {
