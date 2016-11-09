@@ -6,6 +6,8 @@
 
 /* LAYOUT STYLES */
 
+/* ----------- Laptop ----------- */
+
 header {
   letter-spacing: -1px;
   background-color: transparent;
@@ -296,12 +298,6 @@ p {
 
 
 
-
-
-/* ----------- Retina/Non Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px)  { 
 
 
 
