@@ -450,6 +450,7 @@ h5 {
 }
  
 content {
+    margin: 5.5cm 4cm 0cm 4cm;
     letter-spacing: 1px;
     font-size: 32px;
     background-color: transparent;
@@ -458,7 +459,7 @@ content {
   }
   
   content-bio {
-  margin: 0cm 4cm 0cm 4cm;
+  margin: 5.5cm 4cm 0cm 4cm;
   position: absolute;
   left: 0px; 
   color: #202733;
@@ -481,26 +482,26 @@ content {
   } 
 
 footer {
-  margin: 4cm 0cm 0cm 0cm;
+  margin: 4.5cm 0cm 0cm 0cm;
   position: absolute;
   left: 0px; 
   color: #202733;
   padding-top: 0cm;
   letter-spacing: 0px;
-  font-size: 25px;
+  font-size: 30px;
   background-color: transparent;
   font-family: 'Play', sans-serif;
   text-shadow: 1px 0.9px #A9A9A9;
 }
 
 footer-bio {
-  margin: 4cm 0cm 0cm 0cm;
+  margin: 4.5cm 0cm 0cm 0cm;
   position: absolute;
   left: 0px; 
   color: #202733;
   padding-top: 0cm;
   letter-spacing: 0px;
-  font-size: 25px;
+  font-size: 30px;
   background-color: transparent;
   font-family: 'Play', sans-serif;
   text-shadow: 1px 0.9px #A9A9A9;
