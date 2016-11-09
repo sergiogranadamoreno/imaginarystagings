@@ -83,12 +83,13 @@ iframe { display: inline; }
 
 h1 {
   color: #202733;
-  margin: 0cm 8.8cm 0cm 0cm;
+  margin: 0cm 0cm 0cm 0cm;
+  padding-top: 2cm;
   letter-spacing: -2.2px;
   background-color: transparent;
-  font-size: 52px;
+  font-size: 42px;
   font-family: "Lucida Console", Monaco, monospace;
-  text-align: right;
+  text-align: left;
   text-shadow: 1px 0.9px #A9A9A9;
   border-style: hidden;
 }  
@@ -98,9 +99,9 @@ h1 {
 h2 {
   color: transparent;
   margin: 0cm 0cm 0cm 0cm;
-  padding-left: 18.5cm;
-  letter-spacing: 0.5px;
-  font-size: 12px;
+  padding-left: 0cm;
+  letter-spacing: 0px;
+  font-size: 30px;
   background-color: transparent;
   font-family: "Lucida Console", Monaco, monospace;
   text-align: left;
@@ -116,8 +117,8 @@ h3 {
 
 #social-media-icons img {
   display: inline-block;
-  max-width: 3.5%;
-  max-height: 3%;
+  max-width: 8%;
+  max-height: 8%;
   padding: 0px;
 }
 
