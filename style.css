@@ -400,7 +400,7 @@ h1 {
 
 h2 {
   color: transparent;
-  margin: 4cm 0cm 0cm 0cm;
+  margin: 0cm 0cm 0cm 0cm;
   padding-left: 0cm;
   letter-spacing: 0.5px;
   font-size: 32px;
@@ -486,8 +486,8 @@ content {
 footer {
   margin: 0cm 0cm 0cm 0cm;
   position: absolute;
-  left:300px;
-  top:1300px; 
+  left:0px;
+  top:1200px; 
   color: #202733;
   padding-top: 1.1cm;
   letter-spacing: 2px;
@@ -544,8 +544,8 @@ p {
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
 	text-shadow: 0px 0.5px #A9A9A9;
-  left:300px;
-  top:700px;
+  left:0px;
+  top:800px;
 }
 
 .b2
@@ -555,8 +555,8 @@ p {
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
 	text-shadow: 0px 0.5px #A9A9A9;
-  left:300px;
-  top:800px;
+  left:0px;
+  top:900px;
 }
 
 
@@ -567,8 +567,8 @@ p {
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
 	text-shadow: 0px 0.5px #A9A9A9;
-  left:300px;
-  top:900px;
+  left:0px;
+  top:1000px;
 }
 
 .b4
@@ -578,8 +578,8 @@ p {
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
 	text-shadow: 0px 0.5px #A9A9A9;
-  left:300px;
-  top:1000px;
+  left:0px;
+  top:1100px;
 }
 
 .b5
@@ -589,8 +589,8 @@ p {
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
 	text-shadow: 0px 0.5px #A9A9A9;
-  left:300px;
-  top:1100px;
+  left:0px;
+  top:1200px;
 }
 
 
