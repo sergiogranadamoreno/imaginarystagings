@@ -306,13 +306,13 @@ p {
 
 
 
-/* Smartphones (portrait and landscape) ———– */
+/* ----------- iPhone 4 and 4S ----------- */
 
-
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-/* Styles */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
 
 header {
   letter-spacing: -1px;
