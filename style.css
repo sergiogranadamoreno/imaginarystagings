@@ -401,7 +401,7 @@ h1 {
 h2 {
   color: transparent;
   margin: 0cm 0cm 0cm 0cm;
-  padding-left: 2cm;
+  padding-left: 0cm;
   letter-spacing: 0.5px;
   font-size: 32px;
   background-color: transparent;
@@ -454,7 +454,7 @@ h5 {
 content {
     margin: 3cm 0cm 0cm 0cm;
     letter-spacing: -1px;
-    font-size: 26px;
+    font-size: 50px;
     background-color: transparent;
     font-family: 'Play', sans-serif;
     text-align: left;
@@ -467,7 +467,7 @@ content {
   color: #202733;
   padding-top: 0cm;
   letter-spacing: 2px;
-  font-size: 26px;
+  font-size: 50px;
   background-color: transparent;
   font-family: 'Play', sans-serif;
   text-align: justify;
@@ -479,7 +479,7 @@ content {
     width:960px;
     height: 460px;
     margin: 70px auto;
-    
+    font-size: 50px;
     
   } 
 
@@ -543,8 +543,8 @@ p {
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
 	text-shadow: 0px 0.5px #A9A9A9;
-  left:270px;
-  top:500px;
+  left:300px;
+  top:700px;
 }
 
 .b2
@@ -554,8 +554,8 @@ p {
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
 	text-shadow: 0px 0.5px #A9A9A9;
-  left:270px;
-  top:600px;
+  left:300px;
+  top:800px;
 }
 
 
@@ -566,8 +566,8 @@ p {
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
 	text-shadow: 0px 0.5px #A9A9A9;
-  left:270px;
-  top:700px;
+  left:300px;
+  top:900px;
 }
 
 .b4
@@ -577,8 +577,8 @@ p {
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
 	text-shadow: 0px 0.5px #A9A9A9;
-  left:270px;
-  top:800px;
+  left:300px;
+  top:1000px;
 }
 
 .b5
@@ -588,8 +588,8 @@ p {
   border-left: 1.8px inset #C0C0C0;
   border-color: #A9A9A9 #ffffff;
 	text-shadow: 0px 0.5px #A9A9A9;
-  left:270px;
-  top:900px;
+  left:300px;
+  top:1000px;
 }
 
 
