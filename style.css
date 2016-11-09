@@ -400,7 +400,7 @@ h1 {
 
 h2 {
   color: transparent;
-  margin: 0cm 0cm 0cm 0cm;
+  margin: 3cm 0cm 0cm 0.5cm;
   padding-left: 0cm;
   letter-spacing: 0.5px;
   font-size: 32px;
@@ -419,7 +419,7 @@ h3 {
 
 #social-media-icons img {
   display: inline-block;
-  max-width: 8%;
+  max-width: 14%;
   max-height: 8%;
   padding: 0px;
 }
@@ -484,7 +484,7 @@ content {
   } 
 
 footer {
-  margin: 0cm 0cm 0cm 0cm;
+  margin: 1cm 0cm 0cm 0cm;
   position: absolute;
   left:0px;
   top:1200px; 
@@ -498,9 +498,9 @@ footer {
 }
 
 footer-bio {
-  margin: 6cm 0cm 0cm 0cm;
+  margin: 1cm 0cm 0cm 0cm;
   position: absolute;
-  left: 80px; 
+  left: 0px; 
   color: #202733;
   padding-top: 1.1cm;
   letter-spacing: 2px;
