@@ -400,7 +400,7 @@ h1 {
 
 h2 {
   color: transparent;
-  margin: 0cm 0cm 0cm 0cm;
+  margin: 4cm 0cm 0cm 0cm;
   padding-left: 0cm;
   letter-spacing: 0.5px;
   font-size: 32px;
@@ -490,7 +490,7 @@ footer {
   color: #202733;
   padding-top: 1.1cm;
   letter-spacing: 2px;
-  font-size: 30px;
+  font-size: 0px;
   background-color: transparent;
   font-family: 'Play', sans-serif;
   text-shadow: 1px 0.9px #A9A9A9;
@@ -531,7 +531,7 @@ p {
   float: left;
 	border-radius: 4px;
 	font-family: 'Play', sans-serif;
-	font-size: 14px;
+	font-size: 26px;
 	color: #202733;
 	text-decoration: none;	
 }
